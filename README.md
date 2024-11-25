@@ -50,3 +50,13 @@ pos-system-backend/ ├── config/ │ └── db.js # Database connection 
    //For production:
    npm start
    ```
+
+
+## API Endpoints
+
+| Method | Endpoint          | Description              |
+|--------|-------------------|--------------------------|
+| GET    | /api/products     | Retrieve all products    |
+| POST   | /api/products     | Add a new product        |
+
+> Additional endpoints for orders, customers, etc., will be added as the project expands.
