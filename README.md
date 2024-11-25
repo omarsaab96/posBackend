@@ -49,7 +49,7 @@ pos-system-backend/
    npm install
    ```
 
-3. **Set Up Environment Variables**
+3. **Set Up Environment Variables**\
    Create a `.env` file in the root directory and add the following:
    ```
    MONGO_URI=mongodb+srv://username:password@cluster0.mongodb.net/pos-system?retryWrites=true&w=majority
