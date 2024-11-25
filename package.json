@@ -1,7 +1,7 @@
 {
   "name": "posbackend",
   "version": "1.0.0",
-  "description": "Backend for a POS system built with Node.js and Express.js.",
+  "description": "Backend for a POS system built with Node.js and Express.js",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
