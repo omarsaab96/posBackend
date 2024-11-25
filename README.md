@@ -20,7 +20,21 @@ This is the backend for a Point of Sale (POS) system built using Node.js and Exp
 
 ## Project Structure
 
-pos-system-backend/ ├── config/ │ └── db.js # Database connection setup ├── controllers/ │ └── productController.js # Business logic for products ├── models/ │ └── product.js # Mongoose schema for products ├── routes/ │ └── productRoutes.js # API routes for products ├── .env # Environment variables ├── app.js # Main server file ├── package.json # Project dependencies and scripts └── README.md # Project documentation
+```
+pos-system-backend/
+├── config/
+│   └── db.js               # Database connection setup
+├── controllers/
+│   └── productController.js # Business logic for products
+├── models/
+│   └── product.js          # Mongoose schema for products
+├── routes/
+│   └── productRoutes.js    # API routes for products
+├── .env                    # Environment variables
+├── app.js                  # Main server file
+├── package.json            # Project dependencies and scripts
+└── README.md               # Project documentation
+```
 
 
 ## Setup Instructions
