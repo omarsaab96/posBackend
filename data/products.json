@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1698247189094,
+    "barcode": null,
+    "name": "Coffee",
+    "price": 30000,
+    "currency": "LBP",
+    "type": "hotDrinks",
+    "img": "path/to/image.jpg"
+  },
+  {
+    "id": 1698247189095,
+    "barcode": null,
+    "name": "Nescafe",
+    "price": 50000,
+    "currency": "LBP",
+    "type": "hotDrinks",
+    "img": "path/to/image.jpg"
+  },
+  {
+    "id": 1698247189096,
+    "barcode": null,
+    "name": "3in1",
+    "price": 40000,
+    "currency": "LBP",
+    "type": "hotDrinks",
+    "img": "path/to/image.jpg"
+  },
+  {
+    "id": 1698247189097,
+    "barcode": null,
+    "name": "2in1",
+    "price": 40000,
+    "currency": "LBP",
+    "type": "hotDrinks",
+    "img": "path/to/image.jpg"
+  },
+  {
+    "id": 1698247189098,
+    "barcode": null,
+    "name": "Hot Chocolate",
+    "price": 60000,
+    "currency": "LBP",
+    "type": "hotDrinks",
+    "img": "path/to/image.jpg"
+  },
+  {
+    "id": 1698247189099,
+    "barcode": null,
+    "name": "Cappuccino",
+    "price": 40000,
+    "currency": "LBP",
+    "type": "hotDrinks",
+    "img": "path/to/image.jpg"
+  },
+  {
+    "id": 1698247189100,
+    "barcode": null,
+    "name": "Tea",
+    "price": 25000,
+    "currency": "LBP",
+    "type": "hotDrinks",
+    "img": "path/to/image.jpg"
+  }
+]
+
+
