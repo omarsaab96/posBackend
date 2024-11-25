@@ -60,3 +60,20 @@ pos-system-backend/ ├── config/ │ └── db.js # Database connection 
 | POST   | /api/products     | Add a new product        |
 
 > Additional endpoints for orders, customers, etc., will be added as the project expands.
+
+
+
+# Future Enhancements
+
+- Add authentication using JWT for secure access.
+- Implement order and inventory management modules.
+- Add real-time updates with Socket.IO for live order tracking.
+- Integrate reporting tools for sales and inventory analysis.
+
+# Contributing
+
+Contributions are welcome! Feel free to fork this repository and submit pull requests.
+
+# License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
