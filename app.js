@@ -7,7 +7,12 @@ const cors = require("cors");
 const app = express();
 app.use(bodyParser.json());
 
-app.use(cors());
+app.use(cors({
+    origin: 'http://localhost:4200', // Allow only your frontend
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed methods
+    allowedHeaders: ['Content-Type', 'Authorization'], // Specify allowed headers
+    credentials: true // Include this if cookies or credentials are required
+}));
 
 // Use routes
 app.use("/api/products", productRoutes);
