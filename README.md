@@ -35,3 +35,9 @@ pos-system-backend/ ├── config/ │ └── db.js # Database connection 
    ```bash
    npm install
    ```
+   
+3. **Set Up Environment Variables** Create a .env file in the root directory and add the following:
+   ```bash
+   MONGO_URI=mongodb+srv://username:password@cluster0.mongodb.net/pos-system?retryWrites=true&w=majority
+    PORT=5000
+   ```
