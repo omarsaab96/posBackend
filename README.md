@@ -56,8 +56,7 @@ pos-system-backend/
    PORT=5000
    ```
 
-4. **Run the Application**
-
+4. **Run the Application**\
    For development (with auto-restart):
    ```bash
    npm run dev
