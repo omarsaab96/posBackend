@@ -43,11 +43,10 @@ pos-system-backend/ ├── config/ │ └── db.js # Database connection 
    ```  
 
 4. **Run the Application**
- For development (with auto-restart):
    ```bash
+   For development (with auto-restart):
    npm run dev
-   ```
- For production:
-   ```bash
+
+   For production:
    npm start
    ```
