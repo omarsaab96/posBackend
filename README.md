@@ -36,7 +36,6 @@ pos-system-backend/
 └── README.md               # Project documentation
 ```
 
-
 ## Setup Instructions
 
 1. **Clone the Repository**
@@ -49,45 +48,47 @@ pos-system-backend/
    ```bash
    npm install
    ```
-   
-3. **Set Up Environment Variables** Create a .env file in the root directory and add the following:
-   ```bash
+
+3. **Set Up Environment Variables**
+   Create a `.env` file in the root directory and add the following:
+   ```
    MONGO_URI=mongodb+srv://username:password@cluster0.mongodb.net/pos-system?retryWrites=true&w=majority
    PORT=5000
-   ```  
+   ```
 
 4. **Run the Application**
+   For development (with auto-restart):
    ```bash
-   //For development (with auto-restart):
    npm run dev
-
-   //For production:
+   ```
+   For production:
+   ```bash
    npm start
    ```
 
-
 ## API Endpoints
 
-| Method | Endpoint          | Description              |
-|--------|-------------------|--------------------------|
-| GET    | /api/products     | Retrieve all products    |
-| POST   | /api/products     | Add a new product        |
+### Products
+| Method | Endpoint        | Description                  |
+|--------|-----------------|------------------------------|
+| GET    | `/api/products` | Retrieve all products        |
+| POST   | `/api/products` | Add a new product            |
 
-> Additional endpoints for orders, customers, etc., will be added as the project expands.
+Additional endpoints for orders, customers, etc., will be added as the project expands.
 
-
-
-# Future Enhancements
+## Future Enhancements
 
 - Add authentication using JWT for secure access.
 - Implement order and inventory management modules.
 - Add real-time updates with Socket.IO for live order tracking.
 - Integrate reporting tools for sales and inventory analysis.
 
-# Contributing
+## Contributing
 
 Contributions are welcome! Feel free to fork this repository and submit pull requests.
 
-# License
+## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
