@@ -6,7 +6,7 @@
     "price": 30000,
     "currency": "LBP",
     "type": "hotDrinks",
-    "img": "path/to/image.jpg"
+    "img": "https://peakflavorcoffee.com/cdn/shop/files/espresso1.jpg"
   },
   {
     "id": 1698247189095,
@@ -15,7 +15,7 @@
     "price": 50000,
     "currency": "LBP",
     "type": "hotDrinks",
-    "img": "path/to/image.jpg"
+    "img": "https://scontent.fbey5-1.fna.fbcdn.net/v/t39.30808-6/280083334_10159790972689038_8204327096025005325_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=gbinKWGEmkoQ7kNvgH3i48b&_nc_zt=23&_nc_ht=scontent.fbey5-1.fna&_nc_gid=AbBnsLrXCgg12DpT_yluo_y&oh=00_AYDm_sbOzH6m15fCxrOPFnxBXWz7ipmKJ7InhJe9cTCsdQ&oe=67483F2B"
   },
   {
     "id": 1698247189096,
@@ -24,7 +24,7 @@
     "price": 40000,
     "currency": "LBP",
     "type": "hotDrinks",
-    "img": "path/to/image.jpg"
+    "img": "https://p.globalsources.com/IMAGES/PDT/B5924283272/Nescafe-3-in-1.jpg"
   },
   {
     "id": 1698247189097,
@@ -33,7 +33,7 @@
     "price": 40000,
     "currency": "LBP",
     "type": "hotDrinks",
-    "img": "path/to/image.jpg"
+    "img": "https://i0.wp.com/kelchi.com/wp-content/uploads/2023/07/nescafe-2in1-no-sugar-sache.jpg?w=550&ssl=1"
   },
   {
     "id": 1698247189098,
@@ -42,7 +42,7 @@
     "price": 60000,
     "currency": "LBP",
     "type": "hotDrinks",
-    "img": "path/to/image.jpg"
+    "img": "https://lizzylovesfood.com/wp-content/uploads/2021/09/Delysia-Hot-Chocolate-Recipe-8.jpg"
   },
   {
     "id": 1698247189099,
@@ -51,7 +51,7 @@
     "price": 40000,
     "currency": "LBP",
     "type": "hotDrinks",
-    "img": "path/to/image.jpg"
+    "img": "https://www.thespruceeats.com/thmb/U6RVXqbh1q1u19NgUkuMO993z3Y=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/how-to-make-cappuccinos-766116-hero-01-a754d567739b4ee0b209305138ecb996.jpg"
   },
   {
     "id": 1698247189100,
@@ -60,7 +60,7 @@
     "price": 25000,
     "currency": "LBP",
     "type": "hotDrinks",
-    "img": "path/to/image.jpg"
+    "img": "https://m.media-amazon.com/images/I/81yYy4wsmjL._SX679_.jpg"
   }
 ]
 
