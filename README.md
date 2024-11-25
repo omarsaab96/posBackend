@@ -57,6 +57,7 @@ pos-system-backend/
    ```
 
 4. **Run the Application**
+
    For development (with auto-restart):
    ```bash
    npm run dev
