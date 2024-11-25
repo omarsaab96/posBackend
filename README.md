@@ -1,4 +1,4 @@
-# POS System Backend
+# POS System Backendd
 
 This is the backend for a Point of Sale (POS) system built using Node.js and Express.js. It provides RESTful APIs for managing products, orders, customers, and more. The backend connects to a MongoDB database for storing and retrieving data.
 
