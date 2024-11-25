@@ -2,6 +2,8 @@ require('dotenv').config();
 const express = require("express");
 const bodyParser = require("body-parser");
 const productRoutes = require("./routes/productRoutes");
+const cartRoutes = require('./routes/cartRoutes');
+
 const cors = require("cors");
 
 const app = express();
@@ -16,6 +18,9 @@ app.use(cors({
 
 // Use routes
 app.use("/api/products", productRoutes);
+app.use('/api/carts', cartRoutes);
+
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
