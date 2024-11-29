@@ -3,6 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const productRoutes = require("./routes/productRoutes");
 const cartRoutes = require('./routes/cartRoutes');
+const debtRoutes = require('./routes/debtRoutes');
 
 const cors = require("cors");
 
@@ -19,6 +20,7 @@ app.use(cors({
 // Use routes
 app.use("/api/products", productRoutes);
 app.use('/api/carts', cartRoutes);
+app.use('/api/debts', debtRoutes);
 
 
 

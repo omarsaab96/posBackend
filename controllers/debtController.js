@@ -1,5 +1,5 @@
 const fs = require('fs');
-const path = './data/carts.json';
+const path = './data/debts.json';
 
 const readJSONFile = () => {
     if (!fs.existsSync(path)) return [];
@@ -10,18 +10,19 @@ const writeJSONFile = (data) => {
     fs.writeFileSync(path, JSON.stringify(data, null, 2), 'utf8');
 };
 
-// Get all carts
-exports.getCarts = (req, res) => {
-    const carts = readJSONFile();
-    res.status(200).json(carts);
+// Get all debts
+exports.getDebts = (req, res) => {
+    const debts = readJSONFile();
+    console.log(debts)
+    res.status(200).json(debts);
 };
 
-// Add a new cart
-exports.addCart = (req, res) => {
+// Add a new debt
+exports.addDebt = (req, res) => {
     try {
-        const carts = readJSONFile();
-        if (!Array.isArray(carts)) {
-            throw new Error("Carts is not an array");
+        const debts = readJSONFile();
+        if (!Array.isArray(debts)) {
+            throw new Error("Debts is not an array");
         }
 
         console.log(req.body);
@@ -55,8 +56,8 @@ exports.addCart = (req, res) => {
         hours = hours % 12 || 12;
         const formattedTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')} ${period}`;
 
-        const newCart = {
-            id: req.body.cartid ? req.body.cartid : formattedDate, // Use timezone-adjusted date as the ID
+        const newDebt = {
+            id: formattedDate, // Use timezone-adjusted date as the ID
             products: req.body.products || [],
             totalAmount: req.body.totalAmount || 0,
             currency: req.body.currency || null,
@@ -71,54 +72,40 @@ exports.addCart = (req, res) => {
             time: formattedTime || null
         };
 
-        carts.push(newCart);
-        writeJSONFile(carts);
-        res.status(201).json(newCart);
+        debts.push(newDebt);
+        writeJSONFile(debts);
+        res.status(201).json(newDebt);
     } catch (error) {
-        console.error("Error saving cart:", error.message);
+        console.error("Error saving debt:", error.message);
         res.status(400).json({ message: error.message });
     }
 };
 
+// Delete a debt by id
+exports.deleteDebt = (req, res) => {
+    console.log('DELETING... ', req.params.id)
 
-// Update a cart
-exports.updateCart = (req, res) => {
-    try {
-        const carts = readJSONFile();
-        const cartId = parseInt(req.params.id, 10);
-        const cartIndex = carts.findIndex(cart => cart.id === cartId);
+    const debtId = req.params.id;  // Get the debt id from the request parameters
+    const debts = readJSONFile();  // Read the current debts data
 
-        if (cartIndex === -1) {
-            return res.status(404).json({ message: "Cart not found" });
-        }
+    // Find the index of the debt with the provided id
+    const debtIndex = debts.findIndex(debt => debt.id === debtId);
 
-        // Update cart details
-        const updatedCart = {
-            ...carts[cartIndex],
-            ...req.body,
-            totalAmount: req.body.products.reduce((total, product) => {
-                return total + product.price * product.quantity;
-            }, 0)
-        };
-
-        carts[cartIndex] = updatedCart;
-        writeJSONFile(carts);
-        res.status(200).json(updatedCart);
-    } catch (error) {
-        res.status(400).json({ message: error.message });
-    }
-};
-
-// Delete a cart
-exports.deleteCart = (req, res) => {
-    const carts = readJSONFile();
-    const cartId = parseInt(req.params.id, 10);
-    const updatedCarts = carts.filter(cart => cart.id !== cartId);
-
-    if (carts.length === updatedCarts.length) {
-        return res.status(404).json({ message: "Cart not found" });
+    if (debtIndex === -1) {
+        // If no debt with the given id was found, send a 404 response
+        return res.status(404).json({ message: "Debt not found" });
     }
 
-    writeJSONFile(updatedCarts);
-    res.status(200).json({ message: "Cart deleted successfully" });
+    // Remove the debt from the array
+    debts.splice(debtIndex, 1);
+
+    // Write the updated debts array back to the JSON file
+    writeJSONFile(debts);
+
+    // Send a success response
+    res.status(200).json({ message: "Debt deleted successfully" });
 };
+
+
+
+
