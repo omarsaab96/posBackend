@@ -4,6 +4,7 @@ const bodyParser = require("body-parser");
 const productRoutes = require("./routes/productRoutes");
 const cartRoutes = require('./routes/cartRoutes');
 const debtRoutes = require('./routes/debtRoutes');
+const expensesRoutes = require('./routes/expensesRoutes');
 
 const cors = require("cors");
 
@@ -21,6 +22,7 @@ app.use(cors({
 app.use("/api/products", productRoutes);
 app.use('/api/carts', cartRoutes);
 app.use('/api/debts', debtRoutes);
+app.use('/api/expenses', expensesRoutes);
 
 
 

@@ -24,8 +24,6 @@ exports.addCart = (req, res) => {
             throw new Error("Carts is not an array");
         }
 
-        console.log(req.body);
-
         // Get the current date with the desired timezone adjustment
         const now = new Date();
         const options = { timeZone: "Asia/Beirut", hour12: false }; // Replace with your timezone
@@ -64,11 +62,11 @@ exports.addCart = (req, res) => {
             cartNumber: req.body.cartNumber || null,
             cartNotes: req.body.cartNotes || null,
             date: {
-                day: day || null,
-                month: month || null,
-                year: year || null,
+                day: req.body.date.day ? req.body.date.day : day,
+                month: req.body.date.month ? req.body.date.month : month,
+                year: req.body.date.year ? req.body.date.year : year
             },
-            time: formattedTime || null
+            time: req.body.time ? req.body.time: formattedTime
         };
 
         carts.push(newCart);

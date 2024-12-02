@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const filePath = path.join(__dirname, "../data/products.json");
+const filePath = path.join(__dirname, "../data/expenses.json");
 
 // Utility function to read JSON file
 const readJSONFile = () => {
@@ -15,7 +15,7 @@ const writeJSONFile = (data) => {
 };
 
 // Get all products
-const getProducts = (req, res) => {
+const getExpenses = (req, res) => {
     try {
         const products = readJSONFile();
         res.status(200).json(products);
@@ -25,35 +25,34 @@ const getProducts = (req, res) => {
 };
 
 // Add a new product
-const addProduct = (req, res) => {
+const addExpense = (req, res) => {
     try {
-        const products = readJSONFile();
-        const newProduct = {
+        const expenses = readJSONFile();
+        const newExpense = {
             id: Date.now(),
-            barcode: req.body.barcode || null,
             name: req.body.name,
             price: req.body.price,
             currency: req.body.currency,
-            type: req.body.type,
-            img: req.body.img || null,
-            category: req.body.category || null,
-            quantity: req.body.quantity || 0,
-            cost: req.body.cost || 0
+            date: {
+                day: req.body.date,
+                month: req.body.date,
+                year: req.body.date 
+            },
         };
 
-        validateProduct(newProduct); // Validate the product structure
+        validateProduct(newExpense); // Validate the product structure
 
-        products.push(newProduct);
-        writeJSONFile(products);
-        res.status(201).json(newProduct);
+        expenses.push(newExpense);
+        writeJSONFile(expenses);
+        res.status(201).json(newExpense);
     } catch (error) {
         res.status(400).json({ message: error.message });
     }
 };
 
 
-const validateProduct = (product) => {
-    const { name, price, currency, type,category } = product;
+const validateProduct = (expense) => {
+    const { name, price, currency } = expense;
 
     if (!name || typeof name !== "string") {
         throw new Error("Invalid product name");
@@ -64,13 +63,7 @@ const validateProduct = (product) => {
     if (!currency || typeof currency !== "string") {
         throw new Error("Invalid currency");
     }
-    if (!type || typeof type !== "string") {
-        throw new Error("Invalid type");
-    }
-    if (!category || typeof category !== "string") {
-        throw new Error("Invalid type");
-    }
     // Additional checks for optional fields like barcode and img can be added here
 };
 
-module.exports = { getProducts, addProduct };
+module.exports = { getExpenses, addExpense };
