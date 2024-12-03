@@ -1,13 +1,14 @@
 const fs = require('fs');
-const path = './data/carts.json';
+const cartsPath = './data/carts.json';
+const productsPath = './data/products.json';
 
-const readJSONFile = () => {
-    if (!fs.existsSync(path)) return [];
-    return JSON.parse(fs.readFileSync(path, 'utf8'));
+const readJSONFile = (filePath) => {
+    if (!fs.existsSync(filePath)) return [];
+    return JSON.parse(fs.readFileSync(filePath, 'utf8'));
 };
 
-const writeJSONFile = (data) => {
-    fs.writeFileSync(path, JSON.stringify(data, null, 2), 'utf8');
+const writeJSONFile = (filePath, data) => {
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
 };
 
 // Get all carts
@@ -19,9 +20,15 @@ exports.getCarts = (req, res) => {
 // Add a new cart
 exports.addCart = (req, res) => {
     try {
-        const carts = readJSONFile();
+        const carts = readJSONFile(cartsPath);
+        const products = readJSONFile(productsPath); 
+
         if (!Array.isArray(carts)) {
             throw new Error("Carts is not an array");
+        }
+
+        if (!Array.isArray(products)) {
+            throw new Error("Products is not an array");
         }
 
         // Get the current date with the desired timezone adjustment
@@ -62,15 +69,31 @@ exports.addCart = (req, res) => {
             cartNumber: req.body.cartNumber || null,
             cartNotes: req.body.cartNotes || null,
             date: {
-                day: req.body.date.day ? req.body.date.day : day,
-                month: req.body.date.month ? req.body.date.month : month,
-                year: req.body.date.year ? req.body.date.year : year
+                day: req.body.date?.day ? req.body.date.day : day,
+                month: req.body.date?.month ? req.body.date.month : month,
+                year: req.body.date?.year ? req.body.date.year : year
             },
             time: req.body.time ? req.body.time: formattedTime
         };
 
+        // Deduct quantities from products
+        newCart.products.forEach(cartProduct => {
+            const product = products.find(p => p.id === cartProduct.id);
+            if (product) {
+                if (product.availableQuantity >= cartProduct.quantity) {
+                    product.availableQuantity -= cartProduct.quantity;
+                } else {
+                    throw new Error(`Insufficient stock for product ID ${cartProduct.id}: "${product.name}"`);
+                }
+            } else {
+                throw new Error(`Product ID ${cartProduct.id} not found`);
+            }
+        });
+
+        writeJSONFile(productsPath, products);
         carts.push(newCart);
-        writeJSONFile(carts);
+        writeJSONFile(cartsPath, carts);
+
         res.status(201).json(newCart);
     } catch (error) {
         console.error("Error saving cart:", error.message);

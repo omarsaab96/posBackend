@@ -9,10 +9,8 @@
     "section": "makana",
     "img": "https://peakflavorcoffee.com/cdn/shop/files/espresso1.jpg",
     "quantity": "375",
-    "availableQuantity": 368,
     "costLBP": 22500,
-    "costUSD": 0.25,
-    "suggestedPrice": 31500
+    "costUSD": 0.25
   },
   {
     "id": 1698247189095,
@@ -24,10 +22,8 @@
     "section": "makana",
     "img": "https://www.nescafe.com/mena/sites/default/files/2024-05/AE_ae_NES_3.0%20Website_Packshot%20Resizing-Classic_IMG-9_240424_1_1714108279137.png",
     "quantity": "57",
-    "availableQuantity": 55,
     "costLBP": 33000,
-    "costUSD": 0.37,
-    "suggestedPrice": 46500
+    "costUSD": 0.37
   },
   {
     "id": 1698247189096,
@@ -39,10 +35,8 @@
     "section": "makana",
     "img": "https://p.globalsources.com/IMAGES/PDT/B5924283272/Nescafe-3-in-1.jpg",
     "quantity": "27",
-    "availableQuantity": "27",
     "costLBP": 16000,
-    "costUSD": 0.18,
-    "suggestedPrice": 23000
+    "costUSD": 0.18
   },
   {
     "id": 1698247189097,
@@ -54,10 +48,8 @@
     "section": "makana",
     "img": "https://i0.wp.com/kelchi.com/wp-content/uploads/2023/07/nescafe-2in1-no-sugar-sache.jpg?w=550&ssl=1",
     "quantity": "36",
-    "availableQuantity": "36",
     "costLBP": 16000,
-    "costUSD": 0.18,
-    "suggestedPrice": 23000
+    "costUSD": 0.18
   },
   {
     "id": 1698247189098,
@@ -69,10 +61,8 @@
     "section": "makana",
     "img": "https://lizzylovesfood.com/wp-content/uploads/2021/09/Delysia-Hot-Chocolate-Recipe-8.jpg",
     "quantity": "66",
-    "availableQuantity": "66",
     "costLBP": 40500,
-    "costUSD": 0.45,
-    "suggestedPrice": 56000
+    "costUSD": 0.45
   },
   {
     "id": 1698247189099,
@@ -84,10 +74,8 @@
     "section": "makana",
     "img": "https://www.thespruceeats.com/thmb/U6RVXqbh1q1u19NgUkuMO993z3Y=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/how-to-make-cappuccinos-766116-hero-01-a754d567739b4ee0b209305138ecb996.jpg",
     "quantity": "34",
-    "availableQuantity": "34",
     "costLBP": 17500,
-    "costUSD": 0.2,
-    "suggestedPrice": 25000
+    "costUSD": 0.2
   },
   {
     "id": 1698247189100,
@@ -99,10 +87,8 @@
     "section": "makana",
     "img": "https://m.media-amazon.com/images/I/81yYy4wsmjL._SX679_.jpg",
     "quantity": "125",
-    "availableQuantity": "125",
     "costLBP": 8000,
-    "costUSD": 0.09,
-    "suggestedPrice": 12000
+    "costUSD": 0.09
   },
   {
     "id": 1733108006564,
@@ -114,10 +100,8 @@
     "section": "makana",
     "img": "https://www.recipes.com.au/sites/default/files/2020-07/1.-NESTLE%CC%81-SWEETENED-CONDENSED-MILK-.png",
     "quantity": "100",
-    "availableQuantity": "100",
     "costLBP": 3750,
-    "costUSD": 0.05,
-    "suggestedPrice": 6500
+    "costUSD": 0.05
   },
   {
     "id": 1733134437722,
@@ -129,10 +113,8 @@
     "img": null,
     "category": "chips",
     "quantity": "47",
-    "availableQuantity": "47",
     "costLBP": 49000,
-    "costUSD": 0.55,
-    "suggestedPrice": 69000
+    "costUSD": 0.55
   },
   {
     "id": 1733134819198,
@@ -144,10 +126,8 @@
     "img": null,
     "category": "chips",
     "quantity": "156",
-    "availableQuantity": "156",
     "costLBP": 24300,
-    "costUSD": 0.27,
-    "suggestedPrice": 34000
+    "costUSD": 0.27
   },
   {
     "id": 1733135808621,
@@ -159,10 +139,8 @@
     "img": null,
     "category": "chips",
     "quantity": "177",
-    "availableQuantity": "177",
     "costLBP": 8000,
-    "costUSD": 0.09,
-    "suggestedPrice": 12000
+    "costUSD": 0.09
   },
   {
     "id": 1733135847869,
@@ -174,10 +152,8 @@
     "img": null,
     "category": "chips",
     "quantity": "44",
-    "availableQuantity": "44",
     "costLBP": 28000,
-    "costUSD": 0.32,
-    "suggestedPrice": 40500
+    "costUSD": 0.32
   },
   {
     "id": 1733136142566,
@@ -189,10 +165,8 @@
     "img": null,
     "category": "chips",
     "quantity": "108",
-    "availableQuantity": "108",
     "costLBP": 40266,
-    "costUSD": 0.45,
-    "suggestedPrice": 56000
+    "costUSD": 0.45
   },
   {
     "id": 1733136188146,
@@ -204,10 +178,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "9",
-    "availableQuantity": "9",
     "costLBP": 43200,
-    "costUSD": 0.48,
-    "suggestedPrice": 60500
+    "costUSD": 0.48
   },
   {
     "id": 1733136208898,
@@ -219,10 +191,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "4",
-    "availableQuantity": "4",
     "costLBP": 57600,
-    "costUSD": 0.64,
-    "suggestedPrice": 80500
+    "costUSD": 0.64
   },
   {
     "id": 1733136236695,
@@ -234,10 +204,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "22",
-    "availableQuantity": "22",
     "costLBP": 81000,
-    "costUSD": 0.9,
-    "suggestedPrice": 112000
+    "costUSD": 0.9
   },
   {
     "id": 1733136255779,
@@ -249,10 +217,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "13",
-    "availableQuantity": "13",
     "costLBP": 32400,
-    "costUSD": 0.36,
-    "suggestedPrice": 45000
+    "costUSD": 0.36
   },
   {
     "id": 1733136291213,
@@ -264,10 +230,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "15",
-    "availableQuantity": "15",
     "costLBP": 43200,
-    "costUSD": 0.48,
-    "suggestedPrice": 60500
+    "costUSD": 0.48
   },
   {
     "id": 1733136369206,
@@ -279,10 +243,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "21",
-    "availableQuantity": "21",
     "costLBP": 58500,
-    "costUSD": 0.65,
-    "suggestedPrice": 81000
+    "costUSD": 0.65
   },
   {
     "id": 1733136402891,
@@ -294,10 +256,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "18",
-    "availableQuantity": "18",
     "costLBP": 58500,
-    "costUSD": 0.65,
-    "suggestedPrice": 81000
+    "costUSD": 0.65
   },
   {
     "id": 1733136422594,
@@ -309,10 +269,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "2",
-    "availableQuantity": "2",
     "costLBP": 18000,
-    "costUSD": 0.2,
-    "suggestedPrice": 25000
+    "costUSD": 0.2
   },
   {
     "id": 1733136469990,
@@ -324,10 +282,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "18",
-    "availableQuantity": "18",
     "costLBP": 48600,
-    "costUSD": 0.54,
-    "suggestedPrice": 68000
+    "costUSD": 0.54
   },
   {
     "id": 1733136492572,
@@ -339,10 +295,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "5",
-    "availableQuantity": "5",
     "costLBP": 26100,
-    "costUSD": 0.29,
-    "suggestedPrice": 37000
+    "costUSD": 0.29
   },
   {
     "id": 1733136508886,
@@ -354,10 +308,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "1",
-    "availableQuantity": "1",
     "costLBP": 25200,
-    "costUSD": 0.29,
-    "suggestedPrice": 37000
+    "costUSD": 0.29
   },
   {
     "id": 1733136567314,
@@ -369,10 +321,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "57",
-    "availableQuantity": "57",
     "costLBP": 11700,
-    "costUSD": 0.13,
-    "suggestedPrice": 17000
+    "costUSD": 0.13
   },
   {
     "id": 1733136580142,
@@ -384,10 +334,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "12",
-    "availableQuantity": "12",
     "costLBP": 27000,
-    "costUSD": 0.3,
-    "suggestedPrice": 37500
+    "costUSD": 0.3
   },
   {
     "id": 1733136624663,
@@ -399,10 +347,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "37",
-    "availableQuantity": "37",
     "costLBP": 29700,
-    "costUSD": 0.33,
-    "suggestedPrice": 41500
+    "costUSD": 0.33
   },
   {
     "id": 1733136697988,
@@ -414,10 +360,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "38",
-    "availableQuantity": "38",
     "costLBP": 12600,
-    "costUSD": 0.15,
-    "suggestedPrice": 19000
+    "costUSD": 0.15
   },
   {
     "id": 1733136751938,
@@ -429,10 +373,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "19",
-    "availableQuantity": "19",
     "costLBP": 26100,
-    "costUSD": 0.29,
-    "suggestedPrice": 37000
+    "costUSD": 0.29
   },
   {
     "id": 1733136807817,
@@ -444,10 +386,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "5",
-    "availableQuantity": "5",
     "costLBP": 27900,
-    "costUSD": 0.31,
-    "suggestedPrice": 39000
+    "costUSD": 0.31
   },
   {
     "id": 1733136820842,
@@ -459,10 +399,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "5",
-    "availableQuantity": "5",
     "costLBP": 44100,
-    "costUSD": 0.49,
-    "suggestedPrice": 61500
+    "costUSD": 0.49
   },
   {
     "id": 1733136840957,
@@ -474,10 +412,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "12",
-    "availableQuantity": "12",
     "costLBP": 46800,
-    "costUSD": 0.52,
-    "suggestedPrice": 65000
+    "costUSD": 0.52
   },
   {
     "id": 1733136884612,
@@ -489,10 +425,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 13500,
-    "costUSD": 0.15,
-    "suggestedPrice": 19000
+    "costUSD": 0.15
   },
   {
     "id": 1733136900474,
@@ -504,10 +438,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "3",
-    "availableQuantity": "3",
     "costLBP": 15300,
-    "costUSD": 0.17,
-    "suggestedPrice": 21500
+    "costUSD": 0.17
   },
   {
     "id": 1733136927837,
@@ -519,10 +451,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "8",
-    "availableQuantity": "8",
     "costLBP": 32400,
-    "costUSD": 0.36,
-    "suggestedPrice": 45000
+    "costUSD": 0.36
   },
   {
     "id": 1733136947561,
@@ -534,10 +464,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "7",
-    "availableQuantity": "7",
     "costLBP": 52200,
-    "costUSD": 0.58,
-    "suggestedPrice": 72500
+    "costUSD": 0.58
   },
   {
     "id": 1733136962776,
@@ -549,10 +477,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "3",
-    "availableQuantity": "3",
     "costLBP": 27000,
-    "costUSD": 0.3,
-    "suggestedPrice": 37500
+    "costUSD": 0.3
   },
   {
     "id": 1733136983635,
@@ -564,10 +490,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "20",
-    "availableQuantity": "20",
     "costLBP": 27900,
-    "costUSD": 0.31,
-    "suggestedPrice": 39000
+    "costUSD": 0.31
   },
   {
     "id": 1733137026724,
@@ -579,10 +503,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "19",
-    "availableQuantity": "19",
     "costLBP": 7550,
-    "costUSD": 0.09,
-    "suggestedPrice": 12000
+    "costUSD": 0.09
   },
   {
     "id": 1733137054867,
@@ -594,10 +516,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "11",
-    "availableQuantity": "11",
     "costLBP": 11200,
-    "costUSD": 0.13,
-    "suggestedPrice": 17000
+    "costUSD": 0.13
   },
   {
     "id": 1733137072637,
@@ -609,10 +529,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "12",
-    "availableQuantity": "12",
     "costLBP": 25800,
-    "costUSD": 0.29,
-    "suggestedPrice": 37000
+    "costUSD": 0.29
   },
   {
     "id": 1733137087912,
@@ -624,10 +542,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "3",
-    "availableQuantity": "3",
     "costLBP": 21600,
-    "costUSD": 0.24,
-    "suggestedPrice": 30500
+    "costUSD": 0.24
   },
   {
     "id": 1733137118643,
@@ -639,10 +555,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "15",
-    "availableQuantity": "15",
     "costLBP": 10800,
-    "costUSD": 0.12,
-    "suggestedPrice": 15500
+    "costUSD": 0.12
   },
   {
     "id": 1733137132789,
@@ -654,10 +568,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "10",
-    "availableQuantity": "10",
     "costLBP": 27000,
-    "costUSD": 0.3,
-    "suggestedPrice": 37500
+    "costUSD": 0.3
   },
   {
     "id": 1733137159094,
@@ -669,10 +581,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "8",
-    "availableQuantity": "8",
-    "costLBP": 26250,
-    "costUSD": 0.29,
-    "suggestedPrice": 37000
+    "costLBP": 25200,
+    "costUSD": 0.29
   },
   {
     "id": 1733137185937,
@@ -684,10 +594,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "23",
-    "availableQuantity": "23",
     "costLBP": 11700,
-    "costUSD": 0.13,
-    "suggestedPrice": 17000
+    "costUSD": 0.13
   },
   {
     "id": 1733137219996,
@@ -699,10 +607,8 @@
     "img": null,
     "category": "coffee",
     "quantity": "3",
-    "availableQuantity": "3",
     "costLBP": 135000,
-    "costUSD": 1.5,
-    "suggestedPrice": 186500
+    "costUSD": 1.5
   },
   {
     "id": 1733137245418,
@@ -714,10 +620,8 @@
     "img": null,
     "category": "coffee",
     "quantity": "2",
-    "availableQuantity": "2",
     "costLBP": 221400,
-    "costUSD": 2.46,
-    "suggestedPrice": 306000
+    "costUSD": 2.46
   },
   {
     "id": 1733137261207,
@@ -729,10 +633,8 @@
     "img": null,
     "category": "coffee",
     "quantity": "2",
-    "availableQuantity": "2",
     "costLBP": 196200,
-    "costUSD": 2.19,
-    "suggestedPrice": 273000
+    "costUSD": 2.19
   },
   {
     "id": 1733137280378,
@@ -744,10 +646,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "8",
-    "availableQuantity": "8",
     "costLBP": 9000,
-    "costUSD": 0.1,
-    "suggestedPrice": 12500
+    "costUSD": 0.1
   },
   {
     "id": 1733137306155,
@@ -759,10 +659,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "13",
-    "availableQuantity": "13",
     "costLBP": 9000,
-    "costUSD": 0.1,
-    "suggestedPrice": 12500
+    "costUSD": 0.1
   },
   {
     "id": 1733138038224,
@@ -774,10 +672,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "19",
-    "availableQuantity": "19",
     "costLBP": 32400,
-    "costUSD": 0.36,
-    "suggestedPrice": 45000
+    "costUSD": 0.36
   },
   {
     "id": 1733139098529,
@@ -789,10 +685,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "53",
-    "availableQuantity": "53",
     "costLBP": 48600,
-    "costUSD": 0.54,
-    "suggestedPrice": 68000
+    "costUSD": 0.54
   },
   {
     "id": 1733139177455,
@@ -804,7 +698,6 @@
     "img": null,
     "category": "snacks",
     "quantity": "999",
-    "availableQuantity": "999",
     "costLBP": 0,
     "costUSD": 0
   },
@@ -818,10 +711,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "76",
-    "availableQuantity": "76",
     "costLBP": 24300,
-    "costUSD": 0.27,
-    "suggestedPrice": 34000
+    "costUSD": 0.27
   },
   {
     "id": 1733139271644,
@@ -833,10 +724,8 @@
     "img": null,
     "category": "bakery",
     "quantity": "26",
-    "availableQuantity": "26",
     "costLBP": 17100,
-    "costUSD": 0.19,
-    "suggestedPrice": 24500
+    "costUSD": 0.19
   },
   {
     "id": 1733139289510,
@@ -848,10 +737,8 @@
     "img": null,
     "category": "bakery",
     "quantity": "8",
-    "availableQuantity": "8",
     "costLBP": 9200,
-    "costUSD": 0.11,
-    "suggestedPrice": 14000
+    "costUSD": 0.11
   },
   {
     "id": 1733139308494,
@@ -863,10 +750,8 @@
     "img": null,
     "category": "bakery",
     "quantity": "14",
-    "availableQuantity": "14",
     "costLBP": 26000,
-    "costUSD": 0.29,
-    "suggestedPrice": 37000
+    "costUSD": 0.29
   },
   {
     "id": 1733139329218,
@@ -878,10 +763,8 @@
     "img": null,
     "category": "bakery",
     "quantity": "8",
-    "availableQuantity": "8",
     "costLBP": 35000,
-    "costUSD": 0.39,
-    "suggestedPrice": 49000
+    "costUSD": 0.39
   },
   {
     "id": 1733139371172,
@@ -893,10 +776,8 @@
     "img": null,
     "category": "bakery",
     "quantity": "16",
-    "availableQuantity": "16",
     "costLBP": 35000,
-    "costUSD": 0.39,
-    "suggestedPrice": 49000
+    "costUSD": 0.39
   },
   {
     "id": 1733139413378,
@@ -908,10 +789,8 @@
     "img": null,
     "category": "bakery",
     "quantity": "2",
-    "availableQuantity": "2",
     "costLBP": 60000,
-    "costUSD": 0.67,
-    "suggestedPrice": 83500
+    "costUSD": 0.67
   },
   {
     "id": 1733139465782,
@@ -923,10 +802,8 @@
     "img": null,
     "category": "bakery",
     "quantity": 0,
-    "availableQuantity": 0,
     "costLBP": 70000,
-    "costUSD": 0.78,
-    "suggestedPrice": 97500
+    "costUSD": 0.78
   },
   {
     "id": 1733139523427,
@@ -938,10 +815,8 @@
     "img": null,
     "category": "bakery",
     "quantity": "35",
-    "availableQuantity": "35",
     "costLBP": 12000,
-    "costUSD": 0.14,
-    "suggestedPrice": 18000
+    "costUSD": 0.14
   },
   {
     "id": 1733139643129,
@@ -953,10 +828,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "44",
-    "availableQuantity": "44",
     "costLBP": 12800,
-    "costUSD": 0.15,
-    "suggestedPrice": 19000
+    "costUSD": 0.15
   },
   {
     "id": 1733139656439,
@@ -968,10 +841,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "41",
-    "availableQuantity": "41",
     "costLBP": 1800,
-    "costUSD": 0.02,
-    "suggestedPrice": 3000
+    "costUSD": 0.02
   },
   {
     "id": 1733139675605,
@@ -983,10 +854,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "12",
-    "availableQuantity": "12",
     "costLBP": 9000,
-    "costUSD": 0.1,
-    "suggestedPrice": 12500
+    "costUSD": 0.1
   },
   {
     "id": 1733139793781,
@@ -998,10 +867,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "54",
-    "availableQuantity": "54",
     "costLBP": 48000,
-    "costUSD": 0.54,
-    "suggestedPrice": 68000
+    "costUSD": 0.54
   },
   {
     "id": 1733139823585,
@@ -1013,10 +880,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "2",
-    "availableQuantity": "2",
     "costLBP": 45000,
-    "costUSD": 0.5,
-    "suggestedPrice": 62500
+    "costUSD": 0.5
   },
   {
     "id": 1733139847435,
@@ -1028,10 +893,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "3",
-    "availableQuantity": "3",
     "costLBP": 98000,
-    "costUSD": 1.09,
-    "suggestedPrice": 136000
+    "costUSD": 1.09
   },
   {
     "id": 1733139899513,
@@ -1043,10 +906,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "52",
-    "availableQuantity": "52",
     "costLBP": 17500,
-    "costUSD": 0.2,
-    "suggestedPrice": 25000
+    "costUSD": 0.2
   },
   {
     "id": 1733139929494,
@@ -1058,10 +919,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "10",
-    "availableQuantity": "10",
     "costLBP": 68750,
-    "costUSD": 0.77,
-    "suggestedPrice": 96000
+    "costUSD": 0.77
   },
   {
     "id": 1733139991962,
@@ -1073,10 +932,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "43",
-    "availableQuantity": "43",
     "costLBP": 30000,
-    "costUSD": 0.34,
-    "suggestedPrice": 43000
+    "costUSD": 0.34
   },
   {
     "id": 1733140010671,
@@ -1088,10 +945,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": 0,
-    "availableQuantity": 0,
     "costLBP": 42300,
-    "costUSD": 0.47,
-    "suggestedPrice": 59000
+    "costUSD": 0.47
   },
   {
     "id": 1733140057865,
@@ -1103,10 +958,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "18",
-    "availableQuantity": "18",
     "costLBP": 45800,
-    "costUSD": 0.51,
-    "suggestedPrice": 63500
+    "costUSD": 0.51
   },
   {
     "id": 1733140098318,
@@ -1118,10 +971,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "10",
-    "availableQuantity": "10",
     "costLBP": 60500,
-    "costUSD": 0.68,
-    "suggestedPrice": 85000
+    "costUSD": 0.68
   },
   {
     "id": 1733140159797,
@@ -1133,10 +984,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "4",
-    "availableQuantity": "4",
     "costLBP": 37500,
-    "costUSD": 0.42,
-    "suggestedPrice": 52500
+    "costUSD": 0.42
   },
   {
     "id": 1733140195395,
@@ -1148,10 +997,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "2",
-    "availableQuantity": "2",
     "costLBP": 125000,
-    "costUSD": 1.39,
-    "suggestedPrice": 173500
+    "costUSD": 1.39
   },
   {
     "id": 1733140224198,
@@ -1163,10 +1010,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "10",
-    "availableQuantity": "10",
     "costLBP": 52500,
-    "costUSD": 0.59,
-    "suggestedPrice": 74000
+    "costUSD": 0.59
   },
   {
     "id": 1733140236342,
@@ -1178,10 +1023,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "5",
-    "availableQuantity": "5",
     "costLBP": 12000,
-    "costUSD": 0.14,
-    "suggestedPrice": 18000
+    "costUSD": 0.14
   },
   {
     "id": 1733140307958,
@@ -1193,10 +1036,8 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "38",
-    "availableQuantity": "38",
     "costLBP": 12600,
-    "costUSD": 0.15,
-    "suggestedPrice": 19000
+    "costUSD": 0.15
   },
   {
     "id": 1733140333469,
@@ -1208,10 +1049,8 @@
     "img": null,
     "category": "water",
     "quantity": "22",
-    "availableQuantity": "22",
     "costLBP": 13750,
-    "costUSD": 0.16,
-    "suggestedPrice": 20500
+    "costUSD": 0.16
   },
   {
     "id": 1733140347834,
@@ -1223,10 +1062,8 @@
     "img": null,
     "category": "water",
     "quantity": "4",
-    "availableQuantity": "4",
     "costLBP": 27500,
-    "costUSD": 0.31,
-    "suggestedPrice": 39000
+    "costUSD": 0.31
   },
   {
     "id": 1733140367644,
@@ -1238,10 +1075,8 @@
     "img": null,
     "category": "water",
     "quantity": "12",
-    "availableQuantity": "12",
     "costLBP": 16750,
-    "costUSD": 0.19,
-    "suggestedPrice": 24500
+    "costUSD": 0.19
   },
   {
     "id": 1733140385672,
@@ -1253,10 +1088,8 @@
     "img": null,
     "category": "water",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 16750,
-    "costUSD": 0.19,
-    "suggestedPrice": 24500
+    "costUSD": 0.19
   },
   {
     "id": 1733140486666,
@@ -1268,10 +1101,8 @@
     "img": null,
     "category": "water",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 33500,
-    "costUSD": 0.38,
-    "suggestedPrice": 48000
+    "costUSD": 0.38
   },
   {
     "id": 1733140514416,
@@ -1283,10 +1114,8 @@
     "img": null,
     "category": "water",
     "quantity": 0,
-    "availableQuantity": 0,
     "costLBP": 33500,
-    "costUSD": 0.38,
-    "suggestedPrice": 48000
+    "costUSD": 0.38
   },
   {
     "id": 1733140575480,
@@ -1298,10 +1127,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "4",
-    "availableQuantity": "4",
     "costLBP": 145000,
-    "costUSD": 1.62,
-    "suggestedPrice": 201500
+    "costUSD": 1.62
   },
   {
     "id": 1733140593931,
@@ -1313,10 +1140,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "2",
-    "availableQuantity": "2",
     "costLBP": 136000,
-    "costUSD": 1.52,
-    "suggestedPrice": 189500
+    "costUSD": 1.52
   },
   {
     "id": 1733140624449,
@@ -1328,10 +1153,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 104000,
-    "costUSD": 1.16,
-    "suggestedPrice": 144500
+    "costUSD": 1.16
   },
   {
     "id": 1733140646889,
@@ -1343,10 +1166,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "5",
-    "availableQuantity": "5",
     "costLBP": 102000,
-    "costUSD": 1.14,
-    "suggestedPrice": 142500
+    "costUSD": 1.14
   },
   {
     "id": 1733140670222,
@@ -1358,10 +1179,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "4",
-    "availableQuantity": "4",
     "costLBP": 136000,
-    "costUSD": 1.52,
-    "suggestedPrice": 189500
+    "costUSD": 1.52
   },
   {
     "id": 1733140683024,
@@ -1373,10 +1192,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 136000,
-    "costUSD": 1.52,
-    "suggestedPrice": 189500
+    "costUSD": 1.52
   },
   {
     "id": 1733140699885,
@@ -1388,10 +1205,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "7",
-    "availableQuantity": "7",
     "costLBP": 132500,
-    "costUSD": 1.48,
-    "suggestedPrice": 184500
+    "costUSD": 1.48
   },
   {
     "id": 1733140717971,
@@ -1403,10 +1218,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "5",
-    "availableQuantity": "5",
     "costLBP": 285000,
-    "costUSD": 3.17,
-    "suggestedPrice": 394000
+    "costUSD": 3.17
   },
   {
     "id": 1733140737747,
@@ -1418,10 +1231,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "3",
-    "availableQuantity": "3",
     "costLBP": 110700,
-    "costUSD": 1.23,
-    "suggestedPrice": 153500
+    "costUSD": 1.23
   },
   {
     "id": 1733140755801,
@@ -1433,10 +1244,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "3",
-    "availableQuantity": "3",
     "costLBP": 135000,
-    "costUSD": 1.5,
-    "suggestedPrice": 186500
+    "costUSD": 1.5
   },
   {
     "id": 1733140771716,
@@ -1448,10 +1257,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "5",
-    "availableQuantity": "5",
     "costLBP": 135000,
-    "costUSD": 1.5,
-    "suggestedPrice": 186500
+    "costUSD": 1.5
   },
   {
     "id": 1733140804226,
@@ -1463,10 +1270,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "7",
-    "availableQuantity": "7",
     "costLBP": 229500,
-    "costUSD": 2.55,
-    "suggestedPrice": 317000
+    "costUSD": 2.55
   },
   {
     "id": 1733140835958,
@@ -1478,10 +1283,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 175000,
-    "costUSD": 1.95,
-    "suggestedPrice": 242500
+    "costUSD": 1.95
   },
   {
     "id": 1733140871006,
@@ -1493,10 +1296,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "10",
-    "availableQuantity": "10",
     "costLBP": 235000,
-    "costUSD": 2.62,
-    "suggestedPrice": 326000
+    "costUSD": 2.62
   },
   {
     "id": 1733140892709,
@@ -1508,10 +1309,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 115000,
-    "costUSD": 1.28,
-    "suggestedPrice": 159500
+    "costUSD": 1.28
   },
   {
     "id": 1733140915381,
@@ -1523,10 +1322,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "3",
-    "availableQuantity": "3",
     "costLBP": 130000,
-    "costUSD": 1.45,
-    "suggestedPrice": 180500
+    "costUSD": 1.45
   },
   {
     "id": 1733140936913,
@@ -1538,10 +1335,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "1",
-    "availableQuantity": "1",
     "costLBP": 160000,
-    "costUSD": 1.78,
-    "suggestedPrice": 221500
+    "costUSD": 1.78
   },
   {
     "id": 1733140954130,
@@ -1553,10 +1348,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "4",
-    "availableQuantity": "4",
     "costLBP": 116000,
-    "costUSD": 1.29,
-    "suggestedPrice": 161000
+    "costUSD": 1.29
   },
   {
     "id": 1733140980168,
@@ -1568,10 +1361,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "3",
-    "availableQuantity": "3",
     "costLBP": 229500,
-    "costUSD": 2.55,
-    "suggestedPrice": 317000
+    "costUSD": 2.55
   },
   {
     "id": 1733140991467,
@@ -1583,10 +1374,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "2",
-    "availableQuantity": "2",
     "costLBP": 222000,
-    "costUSD": 2.47,
-    "suggestedPrice": 307500
+    "costUSD": 2.47
   },
   {
     "id": 1733141021395,
@@ -1598,10 +1387,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 60000,
-    "costUSD": 0.67,
-    "suggestedPrice": 83500
+    "costUSD": 0.67
   },
   {
     "id": 1733141042421,
@@ -1613,10 +1400,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 66600,
-    "costUSD": 0.74,
-    "suggestedPrice": 92500
+    "costUSD": 0.74
   },
   {
     "id": 1733141076686,
@@ -1628,10 +1413,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "5",
-    "availableQuantity": "5",
     "costLBP": 66600,
-    "costUSD": 0.74,
-    "suggestedPrice": 92500
+    "costUSD": 0.74
   },
   {
     "id": 1733141217947,
@@ -1643,10 +1426,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "10",
-    "availableQuantity": "10",
     "costLBP": 65700,
-    "costUSD": 0.73,
-    "suggestedPrice": 91500
+    "costUSD": 0.73
   },
   {
     "id": 1733141233311,
@@ -1658,10 +1439,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 65700,
-    "costUSD": 0.73,
-    "suggestedPrice": 91500
+    "costUSD": 0.73
   },
   {
     "id": 1733141249247,
@@ -1673,10 +1452,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "9",
-    "availableQuantity": "9",
     "costLBP": 66000,
-    "costUSD": 0.74,
-    "suggestedPrice": 92500
+    "costUSD": 0.74
   },
   {
     "id": 1733141275218,
@@ -1688,10 +1465,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "8",
-    "availableQuantity": "8",
     "costLBP": 65700,
-    "costUSD": 0.73,
-    "suggestedPrice": 91500
+    "costUSD": 0.73
   },
   {
     "id": 1733141535256,
@@ -1703,10 +1478,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "16",
-    "availableQuantity": "16",
     "costLBP": 64800,
-    "costUSD": 0.72,
-    "suggestedPrice": 90000
+    "costUSD": 0.72
   },
   {
     "id": 1733141589105,
@@ -1718,10 +1491,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "8",
-    "availableQuantity": "8",
     "costLBP": 128000,
-    "costUSD": 1.43,
-    "suggestedPrice": 178500
+    "costUSD": 1.43
   },
   {
     "id": 1733141683512,
@@ -1733,10 +1504,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 150000,
-    "costUSD": 1.67,
-    "suggestedPrice": 208000
+    "costUSD": 1.67
   },
   {
     "id": 1733141707317,
@@ -1748,10 +1517,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "9",
-    "availableQuantity": "9",
     "costLBP": 198000,
-    "costUSD": 2.21,
-    "suggestedPrice": 275000
+    "costUSD": 2.21
   },
   {
     "id": 1733141752568,
@@ -1763,10 +1530,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 82000,
-    "costUSD": 0.92,
-    "suggestedPrice": 115000
+    "costUSD": 0.92
   },
   {
     "id": 1733141769316,
@@ -1778,10 +1543,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "5",
-    "availableQuantity": "5",
     "costLBP": 86000,
-    "costUSD": 0.96,
-    "suggestedPrice": 119500
+    "costUSD": 0.96
   },
   {
     "id": 1733141782591,
@@ -1793,10 +1556,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "4",
-    "availableQuantity": "4",
     "costLBP": 87000,
-    "costUSD": 0.97,
-    "suggestedPrice": 121000
+    "costUSD": 0.97
   },
   {
     "id": 1733141802274,
@@ -1808,10 +1569,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "6",
-    "availableQuantity": "6",
     "costLBP": 68000,
-    "costUSD": 0.76,
-    "suggestedPrice": 95000
+    "costUSD": 0.76
   },
   {
     "id": 1733141825289,
@@ -1823,10 +1582,8 @@
     "img": null,
     "category": "smoke",
     "quantity": "4",
-    "availableQuantity": "4",
     "costLBP": 126000,
-    "costUSD": 1.4,
-    "suggestedPrice": 174000
+    "costUSD": 1.4
   },
   {
     "id": 1733143116844,
@@ -1838,10 +1595,8 @@
     "img": null,
     "category": "misc",
     "quantity": "2",
-    "availableQuantity": "2",
     "costLBP": 37800,
-    "costUSD": 0.42,
-    "suggestedPrice": 52500
+    "costUSD": 0.42
   },
   {
     "id": 1733235126087,
@@ -1853,10 +1608,8 @@
     "img": null,
     "category": "dairy",
     "quantity": "2",
-    "availableQuantity": "2",
     "costLBP": 126000,
-    "costUSD": 1.4,
-    "suggestedPrice": 174000
+    "costUSD": 1.4
   },
   {
     "id": 1733235656075,
@@ -1868,10 +1621,8 @@
     "img": null,
     "category": "bakery",
     "quantity": "24",
-    "availableQuantity": "24",
     "costLBP": 30000,
-    "costUSD": 0.34,
-    "suggestedPrice": 43000
+    "costUSD": 0.34
   },
   {
     "id": 1733235984651,
@@ -1883,10 +1634,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "10",
-    "availableQuantity": "10",
     "costLBP": 9000,
-    "costUSD": 0.1,
-    "suggestedPrice": 12500
+    "costUSD": 0.1
   },
   {
     "id": 1733236040737,
@@ -1898,10 +1647,8 @@
     "img": null,
     "category": "snacks",
     "quantity": "100",
-    "availableQuantity": "100",
     "costLBP": 7500,
-    "costUSD": 0.09,
-    "suggestedPrice": 12000
+    "costUSD": 0.09
   },
   {
     "id": 1733236144887,
@@ -1913,9 +1660,7 @@
     "img": null,
     "category": "cold drinks",
     "quantity": "24",
-    "availableQuantity": "24",
     "costLBP": 49000,
-    "costUSD": 0.54,
-    "suggestedPrice": 70000
+    "costUSD": 0.55
   }
 ]

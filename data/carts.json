@@ -1,77 +1,106 @@
 [
   {
-    "id": "12022024020908",
+    "id": "12042024245656",
     "products": [
       {
-        "name": "Nescafe",
-        "price": 50000,
-        "currency": "LBP",
-        "category": "hot drinks",
-        "type": "makana",
-        "quantity": 1,
-        "itemTotal": 50000
-      }
-    ],
-    "totalAmount": 50000,
-    "currency": "LBP",
-    "cartName": null,
-    "cartNumber": 3,
-    "cartNotes": "omar saab",
-    "date": {
-      "day": 2,
-      "month": "Dec",
-      "year": 2024
-    },
-    "time": "02:13:25 AM"
-  },
-  {
-    "id": "12022024020950",
-    "products": [
-      {
-        "name": "Nescafe",
-        "price": 50000,
-        "currency": "LBP",
-        "category": "hot drinks",
-        "type": "makana",
-        "quantity": 1,
-        "itemTotal": 50000
-      }
-    ],
-    "totalAmount": 50000,
-    "currency": "LBP",
-    "cartName": null,
-    "cartNumber": 4,
-    "cartNotes": "abir",
-    "date": {
-      "day": 1,
-      "month": "Dec",
-      "year": 2024
-    },
-    "time": "02:13:26 AM"
-  },
-  {
-    "id": "12022024024023",
-    "products": [
-      {
+        "id": 1698247189094,
         "name": "Coffee",
         "price": 30000,
         "currency": "LBP",
         "category": "hot drinks",
-        "type": "makana",
-        "quantity": 1,
-        "itemTotal": 30000
+        "section": "makana",
+        "quantity": 4,
+        "availableQuantity": "375",
+        "costLBP": 22500,
+        "costUSD": 0.25,
+        "suggestedPrice": 31500,
+        "itemTotal": 120000
       }
     ],
-    "totalAmount": 30000,
+    "totalAmount": 120000,
     "currency": "LBP",
     "cartName": null,
-    "cartNumber": 3,
-    "cartNotes": "hi",
+    "cartNumber": 2,
+    "cartNotes": null,
     "date": {
-      "day": 12,
-      "month": "Sep",
+      "day": 4,
+      "month": "Dec",
       "year": 2024
     },
-    "time": "02:41:07 AM"
+    "time": "12:56:56 AM"
+  },
+  {
+    "id": "12042024245715",
+    "products": [
+      {
+        "id": 1698247189094,
+        "name": "Coffee",
+        "price": 30000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": "375",
+        "costLBP": 22500,
+        "costUSD": 0.25,
+        "suggestedPrice": 31500,
+        "itemTotal": 30000
+      },
+      {
+        "id": 1698247189095,
+        "name": "Nescafe",
+        "price": 50000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 2,
+        "availableQuantity": "57",
+        "costLBP": 33000,
+        "costUSD": 0.37,
+        "suggestedPrice": 46500,
+        "itemTotal": 100000
+      }
+    ],
+    "totalAmount": 130000,
+    "currency": "LBP",
+    "cartName": null,
+    "cartNumber": 2,
+    "cartNotes": null,
+    "date": {
+      "day": 4,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "12:57:15 AM"
+  },
+  {
+    "id": "12042024010330",
+    "products": [
+      {
+        "id": 1698247189094,
+        "name": "Coffee",
+        "price": 30000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 2,
+        "availableQuantity": 370,
+        "costLBP": 22500,
+        "costUSD": 0.25,
+        "suggestedPrice": 31500,
+        "itemTotal": 60000
+      }
+    ],
+    "totalAmount": 60000,
+    "currency": "LBP",
+    "cartName": null,
+    "cartNumber": 1,
+    "cartNotes": "hi",
+    "date": {
+      "day": 4,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "01:03:43 AM"
   }
 ]
