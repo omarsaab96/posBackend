@@ -34,9 +34,9 @@ const addExpense = (req, res) => {
             price: req.body.price,
             currency: req.body.currency,
             date: {
-                day: req.body.date,
-                month: req.body.date,
-                year: req.body.date 
+                day: req.body.date.day,
+                month: req.body.date.month,
+                year: req.body.date.year 
             },
         };
 
