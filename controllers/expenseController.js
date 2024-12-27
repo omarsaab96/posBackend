@@ -30,7 +30,7 @@ const addExpense = (req, res) => {
         const expenses = readJSONFile();
         const newExpense = {
             id: Date.now(),
-            name: req.body.name,
+            label: req.body.label,
             price: req.body.price,
             currency: req.body.currency,
             date: {
@@ -52,10 +52,10 @@ const addExpense = (req, res) => {
 
 
 const validateProduct = (expense) => {
-    const { name, price, currency } = expense;
+    const { label, price, currency } = expense;
 
-    if (!name || typeof name !== "string") {
-        throw new Error("Invalid product name");
+    if (!label || typeof label !== "string") {
+        throw new Error("Invalid expense label");
     }
     if (isNaN(price) || price <= 0) {
         throw new Error("Invalid price");

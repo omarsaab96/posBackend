@@ -5,6 +5,8 @@ const productRoutes = require("./routes/productRoutes");
 const cartRoutes = require('./routes/cartRoutes');
 const debtRoutes = require('./routes/debtRoutes');
 const expensesRoutes = require('./routes/expensesRoutes');
+const reportsRoutes = require('./routes/reportsRoutes');
+
 
 const cors = require("cors");
 
@@ -23,7 +25,7 @@ app.use("/api/products", productRoutes);
 app.use('/api/carts', cartRoutes);
 app.use('/api/debts', debtRoutes);
 app.use('/api/expenses', expensesRoutes);
-
+app.use('/api/reports', reportsRoutes);
 
 
 const PORT = process.env.PORT || 5000;

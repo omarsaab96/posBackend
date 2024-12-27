@@ -13,7 +13,8 @@ const writeJSONFile = (filePath, data) => {
 
 // Get all carts
 exports.getCarts = (req, res) => {
-    const carts = readJSONFile();
+    const carts = readJSONFile(cartsPath);
+    console.log(carts)
     res.status(200).json(carts);
 };
 
@@ -65,7 +66,7 @@ exports.addCart = (req, res) => {
             products: req.body.products || [],
             totalAmount: req.body.totalAmount || 0,
             currency: req.body.currency || null,
-            cartName: req.body.name || null,
+            label: req.body.name || null,
             cartNumber: req.body.cartNumber || null,
             cartNotes: req.body.cartNotes || null,
             date: {

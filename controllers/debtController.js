@@ -61,7 +61,7 @@ exports.addDebt = (req, res) => {
             products: req.body.products || [],
             totalAmount: req.body.totalAmount || 0,
             currency: req.body.currency || null,
-            cartName: req.body.name || null,
+            label: req.body.name || null,
             cartNumber: req.body.cartNumber || null,
             cartNotes: req.body.cartNotes || null,
             date: {
