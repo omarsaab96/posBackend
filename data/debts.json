@@ -1,1 +1,106 @@
-[]
+[
+  {
+    "id": "12262024174841",
+    "products": [
+      {
+        "id": 1698247189096,
+        "name": "3in1",
+        "price": 50000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": "27",
+        "costLBP": 16000,
+        "costUSD": 0.18,
+        "suggestedPrice": 23000,
+        "itemTotal": 50000
+      },
+      {
+        "id": 1698247189097,
+        "name": "2in1",
+        "price": 50000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": 35,
+        "costLBP": 16000,
+        "costUSD": 0.18,
+        "suggestedPrice": 23000,
+        "itemTotal": 50000
+      }
+    ],
+    "totalAmount": 100000,
+    "currency": "LBP",
+    "label": null,
+    "cartNumber": 4,
+    "cartNotes": "omar",
+    "date": {
+      "day": 26,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "05:48:41 PM"
+  },
+  {
+    "id": "12272024224917",
+    "products": [
+      {
+        "id": 1733108006564,
+        "name": "Add nestle",
+        "price": 5000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": "100",
+        "costLBP": 3750,
+        "costUSD": 0.05,
+        "suggestedPrice": 6500,
+        "itemTotal": 5000
+      }
+    ],
+    "totalAmount": 5000,
+    "currency": "LBP",
+    "label": null,
+    "cartNumber": 10,
+    "cartNotes": "omar2",
+    "date": {
+      "day": 27,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "10:49:17 PM"
+  },
+  {
+    "id": "12282024152051",
+    "products": [
+      {
+        "id": 1698247189096,
+        "name": "3in1",
+        "price": 50000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": 22,
+        "costLBP": 16000,
+        "costUSD": 0.18,
+        "suggestedPrice": 23000,
+        "itemTotal": 50000
+      }
+    ],
+    "totalAmount": 50000,
+    "currency": "LBP",
+    "label": null,
+    "cartNumber": 11,
+    "cartNotes": "test debt date",
+    "date": {
+      "day": 28,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "03:20:51 PM"
+  }
+]

@@ -14,7 +14,7 @@ const writeJSONFile = (filePath, data) => {
 // Get all carts
 exports.getCarts = (req, res) => {
     const carts = readJSONFile(cartsPath);
-    console.log(carts)
+    // console.log(carts)
     res.status(200).json(carts);
 };
 

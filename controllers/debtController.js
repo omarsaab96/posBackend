@@ -13,7 +13,7 @@ const writeJSONFile = (data) => {
 // Get all debts
 exports.getDebts = (req, res) => {
     const debts = readJSONFile();
-    console.log(debts)
+    // console.log(debts)
     res.status(200).json(debts);
 };
 
@@ -25,7 +25,7 @@ exports.addDebt = (req, res) => {
             throw new Error("Debts is not an array");
         }
 
-        console.log(req.body);
+        // console.log(req.body);
 
         // Get the current date with the desired timezone adjustment
         const now = new Date();
@@ -83,7 +83,7 @@ exports.addDebt = (req, res) => {
 
 // Delete a debt by id
 exports.deleteDebt = (req, res) => {
-    console.log('DELETING... ', req.params.id)
+    // console.log('DELETING... ', req.params.id)
 
     const debtId = req.params.id;  // Get the debt id from the request parameters
     const debts = readJSONFile();  // Read the current debts data

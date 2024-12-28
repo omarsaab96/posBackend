@@ -1,1 +1,355 @@
-[]
+[
+  {
+    "id": "12092024193526",
+    "products": [
+      {
+        "id": 1698247189097,
+        "name": "2in1",
+        "price": 40000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": "36",
+        "costLBP": 16000,
+        "costUSD": 0.18,
+        "suggestedPrice": 23000,
+        "itemTotal": 40000
+      }
+    ],
+    "totalAmount": 40000,
+    "currency": "LBP",
+    "label": null,
+    "cartNumber": 1,
+    "cartNotes": null,
+    "date": {
+      "day": 9,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "07:35:26 PM"
+  },
+  {
+    "id": "12092024193527",
+    "products": [
+      {
+        "id": 1698247189097,
+        "name": "2in1",
+        "price": 40000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 3,
+        "availableQuantity": "36",
+        "costLBP": 16000,
+        "costUSD": 0.18,
+        "suggestedPrice": 23000,
+        "itemTotal": 120000
+      },
+      {
+        "id": 1698247189095,
+        "name": "Nescafe",
+        "price": 50000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": "36",
+        "costLBP": 16000,
+        "costUSD": 0.18,
+        "suggestedPrice": 23000,
+        "itemTotal": 40000
+      }
+    ],
+    "totalAmount": 40000,
+    "currency": "LBP",
+    "label": null,
+    "cartNumber": 1,
+    "cartNotes": null,
+    "date": {
+      "day": 16,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "07:35:26 PM"
+  },
+  {
+    "id": "12262024171240",
+    "products": [
+      {
+        "id": 1698247189094,
+        "name": "Coffee",
+        "price": 40000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": 375,
+        "costLBP": 22500,
+        "costUSD": 0.25,
+        "suggestedPrice": 31500,
+        "itemTotal": 40000
+      }
+    ],
+    "totalAmount": 40000,
+    "currency": "LBP",
+    "label": null,
+    "cartNumber": 3,
+    "cartNotes": null,
+    "date": {
+      "day": 26,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "05:12:40 PM"
+  },
+  {
+    "id": "12262024185247",
+    "products": [
+      {
+        "id": 1698247189095,
+        "name": "Nescafe",
+        "price": 60000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": 57,
+        "costLBP": 33000,
+        "costUSD": 0.37,
+        "suggestedPrice": 46500,
+        "itemTotal": 60000
+      },
+      {
+        "id": 1698247189097,
+        "name": "2in1",
+        "price": 50000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": 35,
+        "costLBP": 16000,
+        "costUSD": 0.18,
+        "suggestedPrice": 23000,
+        "itemTotal": 50000
+      }
+    ],
+    "totalAmount": 110000,
+    "currency": "LBP",
+    "label": null,
+    "cartNumber": 5,
+    "cartNotes": null,
+    "date": {
+      "day": 26,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "06:52:47 PM"
+  },
+  {
+    "id": "12262024190915",
+    "products": [
+      {
+        "id": 1733135808621,
+        "name": "Karkish small",
+        "price": 10000,
+        "currency": "LBP",
+        "section": "diken",
+        "category": "chips",
+        "quantity": 1,
+        "availableQuantity": "177",
+        "costLBP": 8000,
+        "costUSD": 0.09,
+        "suggestedPrice": 12000,
+        "itemTotal": 10000
+      },
+      {
+        "id": 1698247189100,
+        "name": "Tea",
+        "price": 25000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": "125",
+        "costLBP": 8000,
+        "costUSD": 0.09,
+        "suggestedPrice": 12000,
+        "itemTotal": 25000
+      },
+      {
+        "id": 1733139413378,
+        "name": "Bread markouk",
+        "price": 70000,
+        "currency": "LBP",
+        "section": "diken",
+        "category": "bakery",
+        "quantity": 1,
+        "availableQuantity": "2",
+        "costLBP": 60000,
+        "costUSD": 0.67,
+        "suggestedPrice": 83500,
+        "itemTotal": 70000
+      },
+      {
+        "id": 1733140575480,
+        "name": "Winston light",
+        "price": 165000,
+        "currency": "LBP",
+        "section": "da5en",
+        "category": "smoke",
+        "quantity": 1,
+        "availableQuantity": "4",
+        "costLBP": 145000,
+        "costUSD": 1.62,
+        "suggestedPrice": 201500,
+        "itemTotal": 165000
+      }
+    ],
+    "totalAmount": 270000,
+    "currency": "LBP",
+    "label": null,
+    "cartNumber": 6,
+    "cartNotes": null,
+    "date": {
+      "day": 26,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "07:09:15 PM"
+  },
+  {
+    "id": "12262024193157",
+    "products": [
+      {
+        "id": 1698247189096,
+        "name": "3in1",
+        "price": 50000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 4,
+        "availableQuantity": "27",
+        "costLBP": 16000,
+        "costUSD": 0.18,
+        "suggestedPrice": 23000,
+        "itemTotal": 200000
+      }
+    ],
+    "totalAmount": 200000,
+    "currency": "LBP",
+    "label": null,
+    "cartNumber": 7,
+    "cartNotes": null,
+    "date": {
+      "day": 26,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "07:31:57 PM"
+  },
+  {
+    "id": "12262024193257",
+    "products": [
+      {
+        "id": 1698247189096,
+        "name": "3in1",
+        "price": 50000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": 23,
+        "costLBP": 16000,
+        "costUSD": 0.18,
+        "suggestedPrice": 23000,
+        "itemTotal": 50000
+      }
+    ],
+    "totalAmount": 50000,
+    "currency": "LBP",
+    "label": null,
+    "cartNumber": 8,
+    "cartNotes": null,
+    "date": {
+      "day": 26,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "07:32:57 PM"
+  },
+  {
+    "id": "12262024200453",
+    "products": [
+      {
+        "id": 1733139413378,
+        "name": "Bread markouk",
+        "price": 70000,
+        "currency": "LBP",
+        "section": "diken",
+        "category": "bakery",
+        "quantity": 1,
+        "availableQuantity": 1,
+        "costLBP": 60000,
+        "costUSD": 0.67,
+        "suggestedPrice": 83500,
+        "itemTotal": 70000
+      }
+    ],
+    "totalAmount": 70000,
+    "currency": "LBP",
+    "label": null,
+    "cartNumber": 9,
+    "cartNotes": null,
+    "date": {
+      "day": 26,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "08:04:53 PM"
+  },
+  {
+    "id": "12292024241220",
+    "products": [
+      {
+        "id": 1698247189095,
+        "name": "Nescafe",
+        "price": 60000,
+        "currency": "LBP",
+        "category": "hot drinks",
+        "section": "makana",
+        "quantity": 1,
+        "availableQuantity": 56,
+        "costLBP": 33000,
+        "costUSD": 0.37,
+        "suggestedPrice": 46500,
+        "itemTotal": 60000
+      },
+      {
+        "id": 1733139177455,
+        "name": "Add water",
+        "price": 20000,
+        "currency": "LBP",
+        "section": "diken",
+        "category": "snacks",
+        "quantity": 1,
+        "availableQuantity": "999",
+        "costLBP": 0,
+        "costUSD": 0,
+        "itemTotal": 20000
+      }
+    ],
+    "totalAmount": "80,000",
+    "currency": "LBP",
+    "label": null,
+    "cartNumber": 12,
+    "cartNotes": "testing Search",
+    "date": {
+      "day": 29,
+      "month": "Dec",
+      "year": 2024
+    },
+    "time": "12:12:20 AM"
+  }
+]

@@ -4,6 +4,7 @@ const path = require("path");
 const filePath = path.join(__dirname, "/data/reports.json");
 const cartsFilePath = './data/carts.json';
 const expensesFilePath = './data/expenses.json';
+const debtsFilePath = './data/debts.json';
 
 // Utility function to read JSON file
 const readJSONFile = (filePath) => {
@@ -29,6 +30,7 @@ const getReport = (req, res) => {
         // Read the carts data
         const carts = readJSONFile(cartsFilePath);
         const expenses = readJSONFile(expensesFilePath);
+        const debts = readJSONFile(debtsFilePath);
 
         // Filter carts made on the specified date
         const filteredCarts = carts.filter(cart =>
@@ -48,6 +50,9 @@ const getReport = (req, res) => {
 
         // Calculate totalExpenses from filtered expenses' price field
         const totalExpenses = filteredExpenses.reduce((sum, expense) => sum + (expense.price || 0), 0);
+
+        // Calculate totalDebts from debts totalAmount field
+        const totalDebts = debts.reduce((sum, debt) => sum + (debt.totalAmount || 0), 0);
 
         // Calculate totalSoldItems by summing up all products' quantities from filtered carts
         const totalSoldItems = filteredCarts.reduce((sum, cart) => {
@@ -70,7 +75,7 @@ const getReport = (req, res) => {
 
 
         // Return the filtered carts
-        res.status(200).json({ carts: filteredCarts, expenses: filteredExpenses, totalCarts: totalCarts, totalExpenses: totalExpenses, totalSoldItems: totalSoldItems, totalSoldItemsCostLBP: totalSoldItemsCostLBP, totalSoldItemsCostUSD: totalSoldItemsCostUSD });
+        res.status(200).json({ carts: filteredCarts, expenses: filteredExpenses, debts: debts, totalCarts: totalCarts, totalExpenses: totalExpenses, totalDebts: totalDebts, totalSoldItems: totalSoldItems, totalSoldItemsCostLBP: totalSoldItemsCostLBP, totalSoldItemsCostUSD: totalSoldItemsCostUSD });
     } catch (error) {
         console.error("Error fetching carts:", error);
         res.status(500).json({ error: "Internal Server Error" });
