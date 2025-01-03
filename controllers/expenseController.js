@@ -50,6 +50,52 @@ const addExpense = (req, res) => {
     }
 };
 
+// Update an existing expense
+const updateExpense = (req, res) => {
+    try {
+        const expenses = readJSONFile();
+        const { id } = req.params;
+
+        const index = expenses.findIndex((expense) => expense.id === id);
+        
+        if (index === -1) {
+            return res.status(404).json({ message: "Expense not found" });
+        }
+
+        const updatedExpense = {
+            ...expenses[index],
+            ...req.body, // Update fields from request body
+        };
+
+        validateExpense(updatedExpense);
+
+        expenses[index] = updatedExpense;
+        writeJSONFile(expenses);
+        res.status(200).json(updatedExpense);
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+};
+
+// Delete an expense
+const deleteExpense = (req, res) => {
+    try {
+        const expenses = readJSONFile();
+        const { id } = req.params;
+
+        const index = expenses.findIndex((expense) => expense.id === Number(id));
+        if (index === -1) {
+            return res.status(404).json({ message: "Expense not found" });
+        }
+
+        const deletedExpense = expenses.splice(index, 1);
+        writeJSONFile(expenses);
+        res.status(200).json(deletedExpense);
+    } catch (error) {
+        res.status(500).json({ message: "Error deleting expense" });
+    }
+};
+
 
 const validateProduct = (expense) => {
     const { label, price, currency } = expense;
@@ -66,4 +112,4 @@ const validateProduct = (expense) => {
     // Additional checks for optional fields like barcode and img can be added here
 };
 
-module.exports = { getExpenses, addExpense };
+module.exports = { getExpenses, addExpense, updateExpense, deleteExpense };

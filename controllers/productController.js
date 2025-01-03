@@ -51,6 +51,28 @@ const addProduct = (req, res) => {
         res.status(400).json({ message: error.message });
     }
 };
+//Update an existing product
+const updateProduct = (req, res) => {
+    try {
+        const products = readJSONFile();
+        const { id } = req.params;
+        const productIndex = products.findIndex((p) => p.id === parseInt(id));
+
+        if (productIndex === -1) {
+            return res.status(404).json({ message: "Product not found" });
+        }
+
+        validateProduct(req.body); // Validate the product structure
+
+        const updatedProduct = { ...products[productIndex], ...req.body };
+        products[productIndex] = updatedProduct;
+
+        writeJSONFile(products);
+        res.status(200).json({ message: "Product with id " + id + " updated", updatedProduct: updatedProduct });
+    } catch (error) {
+        res.status(500).json({ message: "Error updating product" });
+    }
+};
 
 // calculate LBP and USD costs
 const calculatePrices = (req, res) => {
@@ -185,4 +207,4 @@ const deleteProduct = (req, res) => {
 };
 
 
-module.exports = { getProducts, addProduct, calculatePrices, updatePriceList, deleteProduct };
+module.exports = { getProducts, addProduct, updateProduct, calculatePrices, updatePriceList, deleteProduct };

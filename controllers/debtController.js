@@ -56,6 +56,7 @@ exports.addDebt = (req, res) => {
         hours = hours % 12 || 12;
         const formattedTime = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')} ${period}`;
 
+        console.log('am= ', req.body)
         const newDebt = {
             id: formattedDate, // Use timezone-adjusted date as the ID
             products: req.body.products || [],
@@ -83,7 +84,7 @@ exports.addDebt = (req, res) => {
 
 // Delete a debt by id
 exports.deleteDebt = (req, res) => {
-    // console.log('DELETING... ', req.params.id)
+    console.log('DELETING... ', req.params.id)
 
     const debtId = req.params.id;  // Get the debt id from the request parameters
     const debts = readJSONFile();  // Read the current debts data

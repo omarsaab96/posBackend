@@ -3,13 +3,13 @@
     "id": 1698247189094,
     "barcode": null,
     "name": "Coffee",
-    "price": 40000,
+    "price": 440000,
     "currency": "LBP",
     "category": "hot drinks",
     "section": "makana",
     "img": "https://peakflavorcoffee.com/cdn/shop/files/espresso1.jpg",
     "quantity": "375",
-    "availableQuantity": 374,
+    "availableQuantity": 354,
     "costLBP": 22500,
     "costUSD": 0.25,
     "suggestedPrice": 31500
@@ -39,7 +39,7 @@
     "section": "makana",
     "img": "https://p.globalsources.com/IMAGES/PDT/B5924283272/Nescafe-3-in-1.jpg",
     "quantity": "27",
-    "availableQuantity": 22,
+    "availableQuantity": 20,
     "costLBP": 16000,
     "costUSD": 0.18,
     "suggestedPrice": 23000
@@ -54,7 +54,7 @@
     "section": "makana",
     "img": "https://i0.wp.com/kelchi.com/wp-content/uploads/2023/07/nescafe-2in1-no-sugar-sache.jpg?w=550&ssl=1",
     "quantity": "36",
-    "availableQuantity": 34,
+    "availableQuantity": 33,
     "costLBP": 16000,
     "costUSD": 0.18,
     "suggestedPrice": 23000
@@ -114,7 +114,7 @@
     "section": "makana",
     "img": "https://www.recipes.com.au/sites/default/files/2020-07/1.-NESTLE%CC%81-SWEETENED-CONDENSED-MILK-.png",
     "quantity": "100",
-    "availableQuantity": "100",
+    "availableQuantity": 99,
     "costLBP": 3750,
     "costUSD": 0.05,
     "suggestedPrice": 6500
@@ -159,7 +159,7 @@
     "img": null,
     "category": "chips",
     "quantity": "177",
-    "availableQuantity": 176,
+    "availableQuantity": 172,
     "costLBP": 8000,
     "costUSD": 0.09,
     "suggestedPrice": 12000
@@ -863,7 +863,7 @@
     "img": null,
     "category": "bakery",
     "quantity": "8",
-    "availableQuantity": "8",
+    "availableQuantity": 4,
     "costLBP": 9200,
     "costUSD": 0.11,
     "suggestedPrice": 14000
@@ -878,7 +878,7 @@
     "img": null,
     "category": "bakery",
     "quantity": "14",
-    "availableQuantity": "14",
+    "availableQuantity": 13,
     "costLBP": 26000,
     "costUSD": 0.29,
     "suggestedPrice": 37000
@@ -893,7 +893,7 @@
     "img": null,
     "category": "bakery",
     "quantity": "8",
-    "availableQuantity": "8",
+    "availableQuantity": 0,
     "costLBP": 35000,
     "costUSD": 0.39,
     "suggestedPrice": 49000
@@ -923,7 +923,7 @@
     "img": null,
     "category": "bakery",
     "quantity": "2",
-    "availableQuantity": 0,
+    "availableQuantity": 196,
     "costLBP": 60000,
     "costUSD": 0.67,
     "suggestedPrice": 83500
@@ -938,7 +938,7 @@
     "img": null,
     "category": "bakery",
     "quantity": 0,
-    "availableQuantity": 0,
+    "availableQuantity": 195,
     "costLBP": 70000,
     "costUSD": 0.78,
     "suggestedPrice": 97500
@@ -953,7 +953,7 @@
     "img": null,
     "category": "bakery",
     "quantity": "35",
-    "availableQuantity": "35",
+    "availableQuantity": 20,
     "costLBP": 12000,
     "costUSD": 0.14,
     "suggestedPrice": 18000
@@ -1913,7 +1913,7 @@
     "img": null,
     "category": "bakery",
     "quantity": "24",
-    "availableQuantity": "24",
+    "availableQuantity": 22,
     "costLBP": 30000,
     "costUSD": 0.34,
     "suggestedPrice": 43000
@@ -2053,5 +2053,18 @@
     "quantity": "12",
     "costLBP": 25000,
     "costUSD": 0.2777777777777778
+  },
+  {
+    "id": 1735528363895,
+    "barcode": null,
+    "name": "test",
+    "price": 101000,
+    "currency": "LBP",
+    "section": "da5en",
+    "img": null,
+    "category": "smoke",
+    "quantity": "1",
+    "costLBP": 1,
+    "costUSD": 0.000011111111111111112
   }
 ]

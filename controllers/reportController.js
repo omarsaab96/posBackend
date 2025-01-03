@@ -39,11 +39,52 @@ const getReport = (req, res) => {
             cart.date.year === year
         );
 
+
+
         const filteredExpenses = expenses.filter(expense =>
             expense.date.day === day &&
             expense.date.month === month &&
             expense.date.year === year
         );
+
+        // Initialize product data aggregation
+        const productData = {};
+
+        filteredCarts.forEach(cart => {
+            (cart.products || []).forEach(product => {
+                const { name, price = 0, quantity = 0, costLBP = 0 } = product;
+
+                if (!productData[name]) {
+                    productData[name] = {
+                        quantity: 0,
+                        totalRevenue: 0,
+                        totalProfit: 0
+                    };
+                }
+
+                // Update product stats
+                productData[name].quantity += quantity;
+                productData[name].totalRevenue += price * quantity;
+                productData[name].totalProfit += (price - costLBP) * quantity;
+            });
+        });
+
+        // Determine the best sellers
+        let bestSellerByQuantity = { name: null, quantity: 0 };
+        let bestSellerByTotalRevenue = { name: null, totalRevenue: 0 };
+        let bestSellerByProfit = { name: null, totalProfit: 0 };
+
+        for (const [name, stats] of Object.entries(productData)) {
+            if (stats.quantity > bestSellerByQuantity.quantity) {
+                bestSellerByQuantity = { name, quantity: stats.quantity };
+            }
+            if (stats.totalRevenue > bestSellerByTotalRevenue.totalRevenue) {
+                bestSellerByTotalRevenue = { name, totalRevenue: stats.totalRevenue };
+            }
+            if (stats.totalProfit > bestSellerByProfit.totalProfit) {
+                bestSellerByProfit = { name, totalProfit: stats.totalProfit };
+            }
+        }
 
         // Calculate totalCarts from filtered carts' totalAmount field
         const totalCarts = filteredCarts.reduce((sum, cart) => sum + (cart.totalAmount || 0), 0);
@@ -73,11 +114,40 @@ const getReport = (req, res) => {
             }, 0);
         }, 0);
 
+        // Determine the best-selling product
+        const productSales = {};
+
+        filteredCarts.forEach(cart => {
+            (cart.products || []).forEach(product => {
+                if (!productSales[product.name]) {
+                    productSales[product.name] = 0;
+                }
+                productSales[product.name] += product.quantity || 0;
+            });
+        });
+
 
         // Return the filtered carts
-        res.status(200).json({ carts: filteredCarts, expenses: filteredExpenses, debts: debts, totalCarts: totalCarts, totalExpenses: totalExpenses, totalDebts: totalDebts, totalSoldItems: totalSoldItems, totalSoldItemsCostLBP: totalSoldItemsCostLBP, totalSoldItemsCostUSD: totalSoldItemsCostUSD });
+        res.status(200).json({
+            carts: filteredCarts, 
+            expenses: filteredExpenses, 
+            debts: debts, 
+            totalCarts: totalCarts, 
+            totalExpenses: totalExpenses, 
+            totalDebts: totalDebts, 
+            totalSoldItems: totalSoldItems, 
+            totalSoldItemsCostLBP: totalSoldItemsCostLBP, 
+            totalSoldItemsCostUSD: totalSoldItemsCostUSD,
+            bestSeller:{
+                byQuantity: bestSellerByQuantity,
+                byRevnue: bestSellerByTotalRevenue,
+                byProfit: bestSellerByProfit
+            }
+
+        });
     } catch (error) {
-        console.error("Error fetching carts:", error);
+        console.error("Error fetching carts:", 
+        error);
         res.status(500).json({ error: "Internal Server Error" });
     }
 };

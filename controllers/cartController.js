@@ -18,11 +18,27 @@ exports.getCarts = (req, res) => {
     res.status(200).json(carts);
 };
 
+// Get cart by ID
+exports.getCartByID = (req, res) => {
+    const { id } = req.params; // Extract the id from the request parameters
+    const carts = readJSONFile(cartsPath); // Read all carts from the JSON file
+
+    // Find the cart with the matching ID
+    const cart = carts.find(cart => cart.id === id);
+
+    if (cart) {
+        res.status(200).json(cart); // Return the cart if found
+    } else {
+        res.status(404).json({ message: "Cart not found" }); // Return an error if not found
+    }
+};
+
+
 // Add a new cart
 exports.addCart = (req, res) => {
     try {
         const carts = readJSONFile(cartsPath);
-        const products = readJSONFile(productsPath); 
+        const products = readJSONFile(productsPath);
 
         if (!Array.isArray(carts)) {
             throw new Error("Carts is not an array");
@@ -74,7 +90,7 @@ exports.addCart = (req, res) => {
                 month: req.body.date?.month ? req.body.date.month : month,
                 year: req.body.date?.year ? req.body.date.year : year
             },
-            time: req.body.time ? req.body.time: formattedTime
+            time: req.body.time ? req.body.time : formattedTime
         };
 
         // Deduct quantities from products
